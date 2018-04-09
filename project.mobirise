@@ -1,0 +1,229 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "HEBSIGNS",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#2b0680",
+        "secondaryColor": "#ffffff",
+        "successColor": "#ffffff",
+        "infoColor": "#f97352",
+        "warningColor": "#ffffff",
+        "dangerColor": "#2b0680",
+        "titleFont": "Montserrat",
+        "subtitleFont": "PT Serif",
+        "textFont": "Oswald",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#f92807",
+        "#f7fa1c"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 19,
+    "versionPublish": "4.6.7",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favweb-128x113.png",
+    "noImageResize": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "HEBSIGNS",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#f92807",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "left",
+              "font-size": "undefinedpx"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle I": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "24px",
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "HEB Fast Signs &amp; Printing",
+          "text": "<i>&nbsp; &nbsp;6530 Baker Blvd. Suite B•Richland Hills, TX 76118<br>&nbsp; &nbsp; <b>214-429-1866</b></i>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-d"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/heb-pricing-info4-2000x1359.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2b0680",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.4"
+          },
+          "title": "",
+          "text": "<br><b style=\"font-style: normal;\"><br></b>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">↓↓↓↓↓SCROLL DOWN TO LEARN MORE ABOUT US\b↓↓↓↓↓</a> "
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000",
+              "font-size": "60px",
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "font-size": "48px",
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-6",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/example-offers-2000x1100.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "title": "",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "PLEASE BE PATIENT, WE HAVE MORE CONTENT COMING SOON.<br><br>",
+          "_styles": {
+            "P": {
+              "color": "#f7fa1c"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/premium-products-1400x1000.png",
+              "width": 1400,
+              "link": "index.html#image1-b",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-b"
+        }
+      ]
+    }
+  }
+}
