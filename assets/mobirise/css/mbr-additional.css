@@ -444,6 +444,16 @@ h6,
   font-family: 'Oswald', sans-serif;
   font-size: 19px;
 }
+#msg-box8-m .mbr-section-title,
+#msg-box8-m p {
+  color: #fff;
+}
+#msg-box8-m .mbr-section-title {
+  color: #f7fa1c;
+}
+#msg-box8-m .lead P {
+  color: #f7fa1c;
+}
 #header5-6 .mbr-section-title {
   color: #000000;
   font-size: 60px;
