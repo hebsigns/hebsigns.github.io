@@ -460,3 +460,16 @@ h6,
   font-size: 48px;
   text-align: center;
 }
+#msg-box7-r .mbr-section-title,
+#msg-box7-r .lead p {
+  color: #fff;
+}
+#msg-box7-r P {
+  color: #f7fa1c;
+  font-size: 19px;
+  text-align: center;
+}
+#msg-box7-r H3 {
+  color: #f7fa1c;
+  text-align: center;
+}
