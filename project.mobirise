@@ -16,7 +16,7 @@
         "subtitleFont": "PT Serif",
         "textFont": "Oswald",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
       },
@@ -24,12 +24,11 @@
         "#f92807",
         "#f7fa1c",
         "#1a0458",
-        "#fcff00",
-        "#848281"
+        "#fcff00"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 38,
+    "uniqCompNum": 32,
     "versionPublish": "4.9.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -151,7 +150,7 @@
             "paddingBottom": "1",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-4692-2000x1095.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-4693-2000x1095.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -166,7 +165,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-4693-2000x777.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -179,7 +178,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-4779-1806x2029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-4780-1806x2029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -194,7 +193,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-4812-2000x1786.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -354,7 +353,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">#whatvirus?</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">214.429.1866</a>",
           "_tags": [
             "Theme"
           ],
@@ -369,8 +368,8 @@
             "ShowTexts": true,
             "showButtons": false,
             "columnsColor": "#2e2e2e",
-            "paddingTop": 2,
-            "paddingBottom": "4",
+            "paddingTop": "1",
+            "paddingBottom": "2",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -420,10 +419,13 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/code-man.jpg",
+              "src": "@PROJECT_PATH@/assets/images/embroidery.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media5": {
@@ -450,10 +452,10 @@
           "caption2": "Gloss Coating or Matte<br>Cardstock or Light Weight Gloss Paper<br>Sizes Available Include:<br><i>(but are not limited to)</i><br><i><br></i>4''x6'' &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4''x8.5''<br><i>5.5''x8.5'' &nbsp; &nbsp; 8.5''x11''</i><br><i><br></i>",
           "title3": "Web Fonts",
           "subtitle3": "Screen Printing<br>Best Value 12+ Pieces",
-          "caption3": "Solid-Colored ink process allows for a long lasting print on&nbsp;Team or Staff Uniforms",
+          "caption3": "The most affordable printing process for orders of 6 or more pieces, usually 1-2 color design on one or both sides of the garment.",
           "title4": "Unlimited Sites",
-          "subtitle4": "",
-          "caption4": "",
+          "subtitle4": "Embroidery available for 6 or more pieces",
+          "caption4": "Any design or logo embroidered for your company staff's uniforms to fit your professional skills.",
           "title5": "Trendy Website Blocks",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
