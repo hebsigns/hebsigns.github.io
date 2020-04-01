@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 
 
 
@@ -557,18 +559,32 @@ section.form .container {
   text-align: center;
   color: #f92807;
 }
-#header5-6 .mbr-section-title {
-  color: #000000;
-  font-size: 60px;
-  text-align: left;
-}
-#header5-6 .mbr-section-lead {
-  color: #9c9a9a;
-}
-#header5-6 .mbr-section-title SPAN {
-  color: #ffffff;
-  font-size: 48px;
+#msg-box5-x H3 {
   text-align: center;
+  color: #fcff00;
+}
+#msg-box5-x P {
+  text-align: center;
+  font-size: 22px;
+  color: #0564db;
+  font-family: 'PT Serif', serif;
+}
+#msg-box5-x B {
+  color: #f92807;
+  font-size: 25px;
+}
+#msg-box5-y H3 {
+  color: #f7fa1c;
+  text-align: center;
+}
+#msg-box5-y P {
+  font-size: 24px;
+  font-family: 'PT Serif', serif;
+  color: #ff2300;
+  text-align: center;
+}
+#msg-box5-y B {
+  color: #fb0600;
 }
 #footer1-s P {
   color: #f7fa1c;

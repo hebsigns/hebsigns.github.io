@@ -16,11 +16,14 @@
         "subtitleFont": "PT Serif",
         "textFont": "Oswald",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
       },
       "additionalSetColors": [
+        "#fb0600",
+        "#ff2300",
+        "#282825",
         "#f92807",
         "#f7fa1c",
         "#1a0458",
@@ -28,7 +31,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 32,
+    "uniqCompNum": 35,
     "versionPublish": "4.9.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -100,7 +103,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/heb-signs-logo-lit-1400x630.jpg",
+              "src": "@PROJECT_PATH@/assets/images/heb-signs-logo-lit.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -262,7 +265,7 @@
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#000000",
             "overlayOpacity": "0.4"
           },
@@ -386,7 +389,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/cards.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bcards-revised.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -397,7 +400,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/flyers-postcards-web.jpg",
+              "src": "@PROJECT_PATH@/assets/images/digital-printing.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -408,7 +411,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/apparel-web.jpg",
+              "src": "@PROJECT_PATH@/assets/images/screen-printing.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -419,7 +422,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/embroidery.jpg",
+              "src": "@PROJECT_PATH@/assets/images/embroidery-1.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -494,97 +497,141 @@
           }
         },
         {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000",
-              "font-size": "60px",
-              "text-align": "left"
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "57",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg-1.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#989895",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.9"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ys-and-banner.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            ".mbr-section-title SPAN": {
-              "color": "#ffffff",
-              "font-size": "48px",
-              "text-align": "center"
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
             }
           },
+          "title": "FULL COLOR&nbsp;",
+          "text": "<i><b>Banners, Yard &nbsp;Signs, Posters</b></i><br><i><b>Banners with Retractable Stand</b></i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-6",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-x",
+          "_styles": {
+            "H3": {
+              "text-align": "center",
+              "color": "#fcff00"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "22px",
+              "color": "#0564db",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i"
+            },
+            "B": {
+              "color": "#f92807",
+              "font-size": "25px"
+            }
+          }
+        },
+        {
           "_params": {
-            "showTitle": false,
-            "showText": false,
+            "showTitle": true,
+            "showText": true,
             "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/example-offers-2000x1100.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#ffffff",
+            "inverse": true,
+            "imageSize": "48",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": false,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.6"
-          },
-          "title": "",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
-        },
-        {
-          "_params": {
-            "showText": false
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/products-2017-04-20-14-53-15-utc-1400x999.jpg",
               "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/stationery.jpg",
               "link": "",
               "alt": "",
               "title": ""
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image1",
-          "_anchor": "image1-k"
-        },
-        {
-          "_params": {
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/custom-graphics-2017-04-24-14-19-57-utc-1200x1553.jpg",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
             },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "PERSONALIZED PRODUCTS",
+          "text": "<i><b>Custom Invoices, Presentation Folders,<br>Stickers, &amp; Much More</b></i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-l"
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-y",
+          "_styles": {
+            "H3": {
+              "color": "#f7fa1c",
+              "text-align": "center"
+            },
+            "P": {
+              "font-size": "24px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
+              "color": "#ff2300",
+              "text-align": "center"
+            },
+            "B": {
+              "color": "#fb0600"
+            }
+          }
         }
       ]
     },
