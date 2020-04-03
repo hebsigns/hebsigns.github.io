@@ -33,7 +33,7 @@
     "versionPublish": "4.9.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/heb-signs-logo-para-modificar2020-128x101.png",
+    "favicon": "",
     "noImageResize": "true",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
