@@ -21,17 +21,17 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#f9a107",
         "#f92807",
         "#f7fa1c",
         "#1a0458",
         "#fcff00",
         "#d4ebf7",
-        "#f7fa04",
-        "#0564db"
+        "#f7fa04"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 32,
+    "uniqCompNum": 33,
     "versionPublish": "5.0.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -76,7 +76,7 @@
             "showText": false,
             "showButtons": false,
             "inverse": false,
-            "imageSize": "58",
+            "imageSize": "70",
             "paddingTop": "2",
             "paddingBottom": "0",
             "bgImageRadio": true,
@@ -90,7 +90,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.9"
+            "overlayOpacity": "1"
           },
           "media": {
             "image": {
@@ -124,8 +124,8 @@
           "_styles": {
             "H3": {
               "color": "#ffffff",
-              "text-align": "right",
-              "font-size": "20px",
+              "text-align": "left",
+              "font-size": "19px",
               "font-family": "'Arimo', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700"
             }
@@ -172,7 +172,7 @@
             "showSubtitles": true,
             "ShowTexts": true,
             "showButtons": false,
-            "columnsColor": "#2e2e2e",
+            "columnsColor": "#f9a107",
             "paddingTop": "2",
             "paddingBottom": "2",
             "columns": 4,
@@ -280,7 +280,7 @@
           "_anchor": "features1-10",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#f9a107"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "color": "#ffffff",
@@ -297,7 +297,10 @@
               "color": "#f92807"
             },
             ".mbr-cards-col:nth-child(odd) .card-subtitle": {
-              "color": "#fcff00"
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "color": "#000000"
             }
           }
         },
@@ -329,7 +332,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "19px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -341,10 +345,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.6rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -380,12 +384,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#000000",
-            "fontSize": "0.6",
+            "fontSize": "1",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -584,6 +588,53 @@
           }
         },
         {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": false,
+            "fullWidth": false,
+            "spacing": "5",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#cccccc",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/ysigns-1-2000x2588.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/ysigns-1-2000x2588-800x1035.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/window-perf-800x1035.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/window-perf-800x1035-800x1035.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery4",
+          "_anchor": "gallery4-w"
+        },
+        {
           "_params": {
             "showText": false
           },
@@ -612,7 +663,7 @@
           "_params": {
             "showBullets": false,
             "fullWidth": false,
-            "spacing": "1",
+            "spacing": "6",
             "paddingTop": "0",
             "paddingBottom": "0",
             "filterBgColor": false,
@@ -643,6 +694,30 @@
                 "title": "",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/ys-and-banner.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/ys-and-banner-800x744.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/vehicles-promo-fb-copy-2000x1146.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/vehicles-promo-fb-copy-2000x1146-800x412.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
@@ -660,7 +735,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "48",
+            "imageSize": "58",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -680,7 +755,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/stationery.jpg",
+              "src": "@PROJECT_PATH@/assets/images/stationery-1400x978.jpeg",
               "link": "",
               "alt": "",
               "title": ""
@@ -698,7 +773,7 @@
             }
           },
           "title": "PERSONALIZED PRODUCTS",
-          "text": "<i><b>Custom Invoices, Presentation Folders,<br>Stickers, &amp; Much More</b></i>",
+          "text": "Purchase order forms,<br>Stickers, &amp; Much more.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
@@ -712,9 +787,9 @@
             },
             "P": {
               "font-size": "24px",
-              "font-family": "'PT Serif', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
-              "color": "#ff2300",
+              "font-family": "'Bitter', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
+              "color": "#ffffff",
               "text-align": "center"
             },
             "B": {
